@@ -1,0 +1,6 @@
+* Fonts
+    * Gochi Hand by Huerta Tipográfica
+    * Josefin Slab by Santiago Orozco
+    * Playfair Display and Playfair Display SC by Claus Eggers Sørensen
+    * Sue Ellen Francisco by Kimberly Geswein
+    * Work Sans by Wei Huang

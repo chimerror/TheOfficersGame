@@ -1,0 +1,23 @@
+body {
+    --forties-chocolate:#543F45;
+    --forties-coal: #14201B;
+    --forties-royal: #582ECE;
+    --forties-sepia: #AD9178;
+    --forties-cream: #DCC9B8;
+    color: var(--forties-cream);
+    background-color: var(--forties-coal);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: justify;
+    margin: 2em;
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    color: var(--forties-royal);
+    font-weight: 900;
+    font-style: italic;
+    font-size: 3em;
+    margin: 0em;
+}
