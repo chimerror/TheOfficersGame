@@ -1,0 +1,76 @@
+$fantabulous-chocolate:#543F45;
+$fantabulous-coal: #14201B;
+$fantabulous-royal: #582ECE;
+$fantabulous-sepia: #AD9178;
+$fantabulous-cream: #DCC9B8;
+
+%forties-heading {
+    font-family: 'Playfair Display SC', 'Playfair Display', serif;
+    color: $fantabulous-royal;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 3em;
+    margin: 0em;
+}
+
+%forties-body {
+    color: $fantabulous-coal;
+    background-color: $fantabulous-cream;
+    font-family: 'Josefin Slab', serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: justify;
+    margin: 2em;
+}
+
+%modern-heading {
+    font-family: 'Work Sans', sans-serif;
+    color: $fantabulous-royal;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 3em;
+    margin: 0em;
+}
+
+%modern-body {
+    color: $fantabulous-cream;
+    background-color: $fantabulous-coal;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: justify;
+    margin: 2em;
+}
+
+%ooc-heading {
+    font-family: 'Gochi Hand', cursive;
+    color: $fantabulous-coal;
+    font-weight: 900;
+    font-style: italic;
+    margin: 0em;
+}
+
+%ooc-body {
+    color: $fantabulous-cream;
+    background-color: $fantabulous-chocolate;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: justify;
+    margin: 2em;
+}
+
+
+body {
+    @extend %modern-body;
+}
+
+h1 {
+    @extend %modern-heading;
+    font-size: 4em;
+}
+
+h2 {
+    @extend %modern-heading;
+    font-size: 3em;
+}

@@ -20,7 +20,7 @@ namespace Website
                             .GetInputFile("_Layout.hbs").ReadAllTextAsync())),
                         new RenderHandlebars("layout")
                             .WithModel(Config.FromDocument((input, context) => new {
-                                pageTitle = "Fantabulous Forty",
+                                pageTitle = input.GetString("title"),
                                 baseUrl = "."
                             }))
                             .WithPartial("textWhatPeopleRead",
