@@ -5,11 +5,14 @@ title: The Fantabulous Season of '40
 Ahoy, Kujira
 -------------
 
-Ahoy. I want to talk to you about blade-sport. You know, that sport you need to be a lawyer to understand? The sport
-that seems to have as much to do about sword-fighting as much as it has to do with supply logistics and proper tea
-etiquette? The one who only complete weirdoes care about? Weirdoes who actually like to physically, with their bodies,
-and their grimy little paws, rifle through old pre-Revolution books, despite it all being a tap away online? Yeah,
-that's the one. I'm that weirdo.
+Ahoy.
+
+I want to talk to you about blade-sport.
+
+You know, that sport you need to be a lawyer to understand? The sport that seems to have as much to do about
+sword-fighting as much as it has to do with supply logistics and proper tea etiquette? The one who only complete
+weirdoes care about? Weirdoes who actually like to physically, with their bodies, and their grimy little paws, rifle
+through old pre-Revolution books, despite it all being a tap away online? Yeah, that's the one. I'm that weirdo.
 
 If you're a fellow weirdo like me, you're probably getting excited to hear, see, and feel stock VR footage from some
 of the great matches of the most decades, featuring the athletes that you grew up following each week as they battled

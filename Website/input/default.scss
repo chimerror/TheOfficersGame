@@ -3,74 +3,91 @@ $fantabulous-coal: #14201B;
 $fantabulous-royal: #582ECE;
 $fantabulous-sepia: #AD9178;
 $fantabulous-cream: #DCC9B8;
+$forties-title-font: 'Playfair Display SC', 'Playfair Display', serif;
+$forties-heading-font: 'Playfair Display', serif;
+$forties-body-font:  'Josefin Slab', serif;
+$modern-font: 'Work Sans', sans-serif;
+$ooc-heading-font: 'Gochi Hand', cursive;
+$ooc-body-font: 'Sue Ellen Francisco', cursive;
 
 %forties-heading {
-    font-family: 'Playfair Display SC', 'Playfair Display', serif;
     color: $fantabulous-royal;
+    font-family: $forties-heading-font;
+    font-size: 2.5em;
     font-weight: 900;
-    font-style: italic;
-    font-size: 3em;
-    margin: 0em;
+    margin: 0.40em 0 0.50em 0.125em;
 }
 
 %forties-body {
     color: $fantabulous-coal;
     background-color: $fantabulous-cream;
-    font-family: 'Josefin Slab', serif;
+    font-family: $forties-body-font;
     font-size: 30px;
-    font-weight: 500;
-    text-align: justify;
-    margin: 2em;
+    font-weight: 425;
+    max-width: 35em;
+    line-height: 1.15em;
+    margin: 0.625em auto 0.5em auto;
 }
 
 %modern-heading {
-    font-family: 'Work Sans', sans-serif;
     color: $fantabulous-royal;
-    font-weight: 900;
-    font-style: italic;
     font-size: 3em;
-    margin: 0em;
+    font-weight: 900;
+    margin: 1em 0 0.425em 0.1em;
 }
 
 %modern-body {
     color: $fantabulous-cream;
     background-color: $fantabulous-coal;
-    font-family: 'Work Sans', sans-serif;
+    font-family: $modern-font;
     font-size: 30px;
-    font-weight: 500;
-    text-align: justify;
-    margin: 2em;
+    font-weight: 400;
+    max-width: 39em;
+    line-height: 1.1875em;
+    word-spacing: -0.0625em;
+    margin: 0.625em auto 0.5em auto;
 }
 
 %ooc-heading {
-    font-family: 'Gochi Hand', cursive;
-    color: $fantabulous-coal;
+    font-family: $ooc-heading-font;
+    color: $fantabulous-sepia;
+    font-size: 2.75em;
     font-weight: 900;
-    font-style: italic;
-    margin: 0em;
+    margin: 0.5em 0 0.1em 0;
 }
 
 %ooc-body {
     color: $fantabulous-cream;
     background-color: $fantabulous-chocolate;
-    font-family: 'Sue Ellen Francisco', cursive;
-    font-size: 30px;
-    font-weight: 500;
-    text-align: justify;
-    margin: 2em;
+    font-family: $ooc-body-font;
+    font-size: 42px;
+    max-width: 27em;
+    line-height: 1.475em;
+    margin: 0 auto;
+    word-spacing: -0.025em;;
 }
 
 
 body {
     @extend %modern-body;
+    text-align: justify;
 }
 
 h1 {
-    @extend %modern-heading;
-    font-size: 4em;
+    @extend %forties-heading;
+    font-family: $forties-title-font;
+    text-align: center;
+    font-size: 3.25em;
+    line-height: 0.875em;
+    font-weight: 400;
 }
 
 h2 {
     @extend %modern-heading;
-    font-size: 3em;
+    font-style: italic;
+    text-align: left;
+}
+
+h2 + p {
+    margin-top: 0;
 }
