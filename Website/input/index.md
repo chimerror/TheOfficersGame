@@ -2,6 +2,15 @@
 title: The Fantabulous Season of '40
 ---
 
+<details class="ooc-body">
+    <summary class="ooc-heading">
+        Psst! Click here to break kayfabe...
+    </summary>
+    The Fantabulous Season of '40 is a Thirsty Sword Lesbians campaign, and this is its website. It's written in
+    multiple levels of fictional truth (that is, "kayfabe"). Click here for more on kayfabe, or click here to go to the
+    home page.
+</details>
+
 Ahoy, Kujira
 -------------
 

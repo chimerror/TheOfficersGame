@@ -56,6 +56,10 @@ $ooc-body-font: 'Sue Ellen Francisco', cursive;
     margin: 0.5em 0 0.1em 0;
 }
 
+.ooc-heading {
+    @extend %ooc-heading
+}
+
 %ooc-body {
     color: $fantabulous-cream;
     background-color: $fantabulous-chocolate;
@@ -63,10 +67,13 @@ $ooc-body-font: 'Sue Ellen Francisco', cursive;
     font-size: 42px;
     max-width: 27em;
     line-height: 1.475em;
-    margin: 0 auto;
     word-spacing: -0.025em;;
+    margin: 0 auto;
 }
 
+.ooc-body {
+    @extend %ooc-body;
+}
 
 body {
     @extend %modern-body;
@@ -90,4 +97,21 @@ h2 {
 
 h2 + p {
     margin-top: 0;
+}
+
+details.ooc-body {
+    background-color: $fantabulous-coal;
+}
+
+details[open].ooc-body {
+    background-color: $fantabulous-chocolate;
+    padding: 0 .25em .50em .25em;
+}
+
+summary.ooc-heading {
+    font-size: 0.75em;
+}
+
+details + h2 {
+    margin-top: 0.25em;
 }
