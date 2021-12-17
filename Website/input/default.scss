@@ -18,6 +18,10 @@ $ooc-body-font: 'Sue Ellen Francisco', cursive;
     margin: 0.40em 0 0.50em 0.125em;
 }
 
+.forties-heading {
+    @extend %forties-heading
+}
+
 %forties-body {
     color: $fantabulous-coal;
     background-color: $fantabulous-cream;
@@ -29,11 +33,19 @@ $ooc-body-font: 'Sue Ellen Francisco', cursive;
     margin: 0.625em auto 0.5em auto;
 }
 
+.forties-body {
+    @extend %forties-body
+}
+
 %modern-heading {
     color: $fantabulous-royal;
     font-size: 3em;
     font-weight: 900;
     margin: 1em 0 0.425em 0.1em;
+}
+
+.modern-heading {
+    @extend %modern-heading
 }
 
 %modern-body {
@@ -46,6 +58,10 @@ $ooc-body-font: 'Sue Ellen Francisco', cursive;
     line-height: 1.1875em;
     word-spacing: -0.0625em;
     margin: 0.625em auto 0.5em auto;
+}
+
+.modern-body {
+    @extend %modern-body
 }
 
 %ooc-heading {
@@ -103,13 +119,23 @@ h2 + p {
     margin-top: 0;
 }
 
-details.ooc-body {
-    background-color: $fantabulous-coal;
+details {
+    background-color: unset !important;
+}
+
+details[open].modern-body {
+    background-color: $fantabulous-coal !important;
+    padding: 0 .25em .50em .25em;
 }
 
 details[open].ooc-body {
-    background-color: $fantabulous-chocolate;
+    background-color: $fantabulous-chocolate !important;
     padding: 0 .25em .50em .25em;
+}
+
+summary.modern-heading {
+    font-size: 0.75em;
+    color: $fantabulous-sepia
 }
 
 summary.ooc-heading {
