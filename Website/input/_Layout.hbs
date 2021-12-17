@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
     <link href="default.css" rel="stylesheet" />
 </head>
-<body>
+{{#if hasBodyClass}}<body class="{{bodyClass}}">{{else}}<body>{{/if}}
     {{#unless hideTitle}}<h1>{{pageTitle}}</h1>{{/unless}}
     {{{>textWhatPeopleRead}}}
 </body>

@@ -23,6 +23,8 @@ namespace Website
                                 pageTitle = input.GetString("title"),
                                 baseUrl = ".",
                                 hideTitle = input.GetBool("hide-title", false),
+                                bodyClass = input.GetString("body-class"),
+                                hasBodyClass = input.ContainsKey("body-class"),
                             }))
                             .WithPartial("textWhatPeopleRead",
                                 Config.FromDocument(async input => await input.GetContentStringAsync())),
