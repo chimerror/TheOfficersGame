@@ -1,5 +1,6 @@
 ---
 title: The Fantabulous Season of '40
+hide-title: true
 ---
 
 <details class="ooc-body">
@@ -7,8 +8,8 @@ title: The Fantabulous Season of '40
         Psst! Click here to break kayfabe...
     </summary>
     The Fantabulous Season of '40 is a Thirsty Sword Lesbians campaign, and this is its website. It's written in
-    multiple levels of fictional truth (that is, "kayfabe"). Click here for more on kayfabe, or click here to go to the
-    home page.
+    multiple levels of fictional truth (that is, "kayfabe"). <a href="kayfabe.html">Click here for more on kayfabe</a>,
+    or <a href="home.html">click here to go to the home page</a>.
 </details>
 
 Ahoy, Kujira
@@ -25,7 +26,7 @@ through old pre-Revolution books, despite it all being a tap away online? Yeah, 
 
 If you're a fellow weirdo like me, you're probably getting excited to hear, see, and feel stock VR footage from some
 of the great matches of the most decades, featuring the athletes that you grew up following each week as they battled
-for the Kujiran Open Cup. Sorry, I don't really have that for you today. This is just a simple hypertext document. And
+for the Kujiran Open Cup. Sorry, I don't really have that for you today. This is just a simple hypertext essay. And
 as you might have guessed from my mention of old pre-Revolution books, I want to talk about blade-sport back when
 nothing even close to cameras, not to mention recordings, or computers, or programmable nanites existed. The old stuff.
 
@@ -53,3 +54,7 @@ thought much about these lady officers as they were fresh rookies... I mean "rec
 junior "academies" as they called teams then. Yeah, those are the ladies *I* want to talk about.
 
 Care to listen?
+
+:::title-drop
+[The Fantabulous Season of &#8217;40](home.html)
+:::

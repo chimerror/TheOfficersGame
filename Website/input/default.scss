@@ -75,18 +75,22 @@ $ooc-body-font: 'Sue Ellen Francisco', cursive;
     @extend %ooc-body;
 }
 
-body {
-    @extend %modern-body;
-    text-align: justify;
-}
-
-h1 {
+.title-drop {
     @extend %forties-heading;
     font-family: $forties-title-font;
     text-align: center;
     font-size: 3.25em;
     line-height: 0.875em;
     font-weight: 400;
+}
+
+body {
+    @extend %modern-body;
+    text-align: justify;
+}
+
+a.title-drop {
+    line-height: 1em;
 }
 
 h2 {

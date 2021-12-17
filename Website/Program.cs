@@ -21,7 +21,8 @@ namespace Website
                         new RenderHandlebars("layout")
                             .WithModel(Config.FromDocument((input, context) => new {
                                 pageTitle = input.GetString("title"),
-                                baseUrl = "."
+                                baseUrl = ".",
+                                hideTitle = input.GetBool("hide-title", false),
                             }))
                             .WithPartial("textWhatPeopleRead",
                                 Config.FromDocument(async input => await input.GetContentStringAsync())),
