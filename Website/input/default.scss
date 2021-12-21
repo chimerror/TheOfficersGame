@@ -144,10 +144,24 @@ header {
     margin: 0.125em 0;
 }
 
-.header-title {
+a.header-title {
     font-family: $forties-title-font;
     font-size: 0.5em;
     margin: 0.25em;
+    text-decoration: none;
+
+    &:link {
+        color: $fantabulous-cream !important;
+    }
+
+    &:visited {
+        color: $fantabulous-cream !important;
+    }
+
+    &:focus, &:hover {
+        color: $fantabulous-coal;
+        text-decoration: underline;
+    }
 }
 
 %header-button {
@@ -190,6 +204,7 @@ nav a {
     font-size: 0.5em;
     font-style: italic;
     margin: 0.45em auto auto auto;
+    text-decoration: none;
 }
 
 // Temporary until I make a menu
@@ -197,8 +212,76 @@ nav ul {
     display: none;
 }
 
-a.title-drop {
+a, .modern-body a {
+    &:link {
+        color: $fantabulous-chocolate;
+        font-weight: 700;
+    }
+
+    &:visited {
+        color: $fantabulous-sepia;
+    }
+
+    &:focus, &:hover {
+        color: $fantabulous-royal;
+    }
+}
+
+header a {
+    &:link {
+        color: $fantabulous-coal !important;
+    }
+
+    &:visited {
+        color: $fantabulous-sepia !important;
+    }
+
+    &:focus, &:hover {
+        color: $fantabulous-cream !important;
+        background-color: unset !important;
+    }
+}
+
+.forties-body a, .ooc-body .forties-body a {
+    &:link {
+        color: $fantabulous-chocolate;
+        font-weight: 700;
+    }
+
+    &:visited {
+        color: $fantabulous-sepia;
+    }
+
+    &:focus, &:hover {
+        color: $fantabulous-royal;
+        background-color: unset !important;
+    }
+}
+
+.ooc-body a {
+    &:link {
+        color: $fantabulous-sepia;
+    }
+
+    &:visited {
+        color: $fantabulous-coal;
+    }
+
+    &:focus, &:hover {
+        color: $fantabulous-cream;
+        background-color: $fantabulous-royal;
+    }
+}
+
+.title-drop a {
+    color: $fantabulous-royal;
     line-height: 1em;
+    text-decoration: none;
+
+    &:focus, &:hover {
+        color: $fantabulous-sepia;
+        text-decoration: underline;
+    }
 }
 
 h2 {
