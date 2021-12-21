@@ -1,6 +1,8 @@
 ---
 title: The Fantabulous Season of '40
 hide-title: true
+hide-site-title: true
+hide-header: true
 ---
 
 <details class="ooc-body">

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="color-scheme" content="dark light">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>{{pageTitle}}</title>
+    <title>{{pageTitle}}{{#unless hideSiteTitle}} - The Fantabulous Season of '40{{/unless}}</title>
     <base href="{{baseUrl}}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,12 @@
     <link href="default.css" rel="stylesheet" />
 </head>
 {{#if hasBodyClass}}<body class="{{bodyClass}}">{{else}}<body>{{/if}}
-    {{#unless hideTitle}}<h1>{{pageTitle}}</h1>{{/unless}}
-    {{{>textWhatPeopleRead}}}
+    {{#unless hideHeader}}{{{>headerPartial}}}{{/unless}}
+    <main>
+        {{#unless hideTitle}}<h1>{{pageTitle}}</h1>{{/unless}}
+        {{{>textWhatPeopleRead}}}
+    </main>
+    <script src="scripts/jquery-3.6.0.min.js"></script>
+    <script src="scripts/layout.js"></script>
 </body>
 </html>

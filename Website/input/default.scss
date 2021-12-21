@@ -28,13 +28,16 @@ $ooc-body-font: 'Sue Ellen Francisco', cursive;
     font-family: $forties-body-font;
     font-size: 30px;
     font-weight: 425;
-    max-width: 35em;
     line-height: 1.15em;
-    margin: 0.625em auto 0.5em auto;
 }
 
 .forties-body {
     @extend %forties-body
+}
+
+.forties-body main {
+    max-width: 35em;
+    margin: 0.625em auto 0.5em auto;
 }
 
 %modern-heading {
@@ -54,14 +57,17 @@ $ooc-body-font: 'Sue Ellen Francisco', cursive;
     font-family: $modern-font;
     font-size: 30px;
     font-weight: 400;
-    max-width: 39em;
     line-height: 1.1875em;
     word-spacing: -0.0625em;
-    margin: 0.625em auto 0.5em auto;
 }
 
 .modern-body {
     @extend %modern-body
+}
+
+main, .modern-body main {
+    max-width: 39em;
+    margin: 0.625em auto 0.5em auto;
 }
 
 %ooc-heading {
@@ -81,14 +87,17 @@ $ooc-body-font: 'Sue Ellen Francisco', cursive;
     background-color: $fantabulous-chocolate;
     font-family: $ooc-body-font;
     font-size: 42px;
-    max-width: 27em;
     line-height: 1.475em;
     word-spacing: -0.025em;;
-    margin: 0 auto;
 }
 
 .ooc-body {
     @extend %ooc-body;
+}
+
+.ooc-body main {
+    max-width: 27em;
+    margin: 0 auto;
 }
 
 .title-drop {
@@ -103,6 +112,89 @@ $ooc-body-font: 'Sue Ellen Francisco', cursive;
 body {
     @extend %modern-body;
     text-align: justify;
+    margin: 0;
+}
+
+header {
+    @extend %modern-heading;
+    background-color: $fantabulous-royal;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    position: sticky;
+    border-bottom: 0.125em solid $fantabulous-cream;
+    font-family: $modern-font;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1em 1.125em;
+}
+
+.ooc-body header, .forties-body header {
+    font-size: 90px;
+    line-height: 35.625px;
+    word-spacing: -1.875px;
+}
+
+.header-title-div {
+    display: flex;
+    grid-row: 1;
+}
+
+.header-title-div h1 {
+    margin: 0.125em 0;
+}
+
+.header-title {
+    font-family: $forties-title-font;
+    font-size: 0.5em;
+    margin: 0.25em;
+}
+
+%header-button {
+    color: $fantabulous-cream;
+    background-color: $fantabulous-coal;
+    fill: $fantabulous-cream;
+    height: 6em;
+    min-width: 9em;
+    display: block;
+    border-style: solid;
+    border-width: 0.25em;
+    border-color: $fantabulous-cream;
+    font-family: $modern-font;
+}
+
+.hide-header-button {
+    @extend %header-button;
+}
+
+.show-header-button {
+    @extend %header-button;
+    display: none;
+    position: fixed;
+    margin-left: 1em;
+}
+
+.show-header-button-icon, .hide-header-button-icon {
+    height: 3em;
+    width: 3em;
+    margin: auto;
+}
+
+header nav {
+    display: flex;
+    grid-row: 2;
+    margin: 0.125em 0.25em 0 0.25em;
+}
+
+nav a {
+    font-size: 0.5em;
+    font-style: italic;
+    margin: 0.45em auto auto auto;
+}
+
+// Temporary until I make a menu
+nav ul {
+    display: none;
 }
 
 a.title-drop {

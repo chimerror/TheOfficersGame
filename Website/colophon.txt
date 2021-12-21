@@ -4,3 +4,6 @@
     * Playfair Display and Playfair Display SC by Claus Eggers Sørensen
     * Sue Ellen Francisco by Kimberly Geswein
     * Work Sans by Wei Huang
+* Icons
+    * Open Menu by Melvin from NounProject.com
+    * Close Menu by Melvin from NounProject.com

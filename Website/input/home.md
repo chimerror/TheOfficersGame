@@ -1,5 +1,6 @@
 ---
 title: Home Page
+hide-title: true
 ---
 
 Welcome to the Fantabulous Season of '40! This is a hypertext essay about an entire season of blade-sport. And not just
