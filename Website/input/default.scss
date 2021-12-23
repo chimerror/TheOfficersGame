@@ -200,6 +200,11 @@ header nav {
     margin: 0.125em 0.25em 0 0.25em;
 }
 
+.nav-links {
+    display: flex;
+    flex: 4;
+}
+
 nav a {
     font-size: 0.5em;
     font-style: italic;
@@ -319,4 +324,165 @@ summary.ooc-heading {
 
 details + h2 {
     margin-top: 0.25em;
+}
+
+@media (max-width: 1500px) {
+    header {
+        grid-template-rows: 0.75em 1em;
+    }
+
+    a.header-title {
+        font-size: 0.4em;
+    }
+
+    .hide-header-button, .show-header-button {
+        height: 5em;
+        min-width: unset;
+        width: 6em;
+    }
+
+    .hide-header-button-icon, .show-header-button-icon {
+        height: 2em;
+        width: 2em;
+    }
+}
+
+@media (max-width: 1300px) {
+    main, .modern-body main {
+        margin: 0.625em 5em 0.5em 5em;
+    }
+
+    a.header-title {
+        font-size: 0.35em;
+    }
+
+    nav a {
+        font-size: 0.4em;
+    }
+}
+
+@media (max-width: 1100px) {
+    body, .modern-body {
+        font-size: 25px;
+    }
+
+    header {
+        border-bottom-width: 0.0625em;
+    }
+
+    .hide-header-button, .show-header-button {
+        height: 4em;
+        width: 7.25em;
+    }
+
+    .hide-header-button-text, .show-header-button-text {
+        font-size: 0.85em;
+    }
+}
+
+@media (max-width: 900px) {
+    main, .modern-body main {
+        margin: 0.5em 3em 0.5em 3em;
+    }
+
+    header {
+        grid-template-rows: 0.5em 0.95em;
+    }
+
+    a.header-title {
+        font-size: 0.25em;
+    }
+
+    .hide-header-button, .show-header-button {
+        height: 4.5em;
+        width: 5em;
+    }
+
+    .hide-header-button-icon, .show-header-button-icon {
+        height: 1.75em;
+        width: 1.75em;
+    }
+
+    nav a {
+        font-size: 0.35em;
+    }
+}
+
+@media (max-width: 800px) {
+    body, .modern-body {
+        font-size: 20px;
+    }
+
+    main, .modern-body main {
+        margin: 0.5em 3.5em 0.5em 3.5em;
+    }
+
+
+    .hide-header-button, .show-header-button {
+        height: 3.5em;
+        width: 7.25em;
+    }
+
+    .hide-header-button-icon, .show-header-button-icon {
+        height: 1.5em;
+        width: 1.5em;
+    }
+}
+
+@media (max-width: 725px) {
+    .hide-header-button, .show-header-button {
+        height: 5.5em;
+        width: 3.5em;
+    }
+
+    .hide-header-button-icon, .show-header-button-icon {
+        height: 1.5em;
+        width: 1.5em;
+    }
+}
+
+@media (max-width: 625px) {
+    main, .modern-body main {
+        margin: 0.5em 3.5em 0.5em 3.5em;
+    }
+}
+
+@media (max-width: 575px) {
+    body, .modern-body {
+        font-size: 15px;
+    }
+
+    main, .modern-body main {
+        margin: 0.625em 2em 0.5em 5em;
+    }
+}
+
+@media (max-width: 450px) {
+    body, .modern-body {
+        font-size: 13px;
+    }
+
+    header {
+        grid-template-rows: 0.5em 2.75em;
+    }
+
+    a.header-title {
+        font-size: 0.2em;
+    }
+
+    .nav-links {
+        flex: 1;
+        flex-direction: column;
+    }
+
+    nav a {
+        font-size: 0.45em;
+        margin: 0.25em 0.5em;
+    }
+}
+
+@media (max-width: 375px) {
+    body, .modern-body {
+        font-size: 10px;
+    }
 }
