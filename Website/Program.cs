@@ -39,7 +39,7 @@ namespace Website
                         new SetContent(Config.FromDocument(document => document.GetString("layout")))))
                 .DeployToNetlify(
                     "bfbed18f-284f-47c4-a365-06b1915d0beb",
-                    "t1DXGBr8gP9VzQN62641AbhpN3Fy9j-onVFUdnWLthI")
+                    "TOKEN")
                 .RunAsync();
     }
 }
